@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.nav-color{
+    background: rgba(0,0,0,0.5);    
+}
+.login-bt{
+    margin-left: 550px;
+}
+
+.card-head{
+    box-sizing: border-box;
+    margin-top: 150px;
+    background: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    
+    
+}
+
+.card-image{
+    cursor: pointer;
+}
+.card-image:hover{
+    transform:scale(1.1);
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+.bg-cust{
+    background-color: rgba(0,0,0,0.8);
+
+}
+.txt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(124, 120, 236);
+}
+
+.foot-color{
+    background-color: rgb(60, 59, 59);
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.brown-mode{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.sec1-color{
+    background-color: blanchedalmond;
+    color: black;
+}

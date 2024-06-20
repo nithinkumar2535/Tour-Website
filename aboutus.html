@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+  <body>
+   
+
+
+    <header>
+      <nav class=" navbar navbar-expand-lg navbar-dark nav-color">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand text-secondary"><img src="images/logo white.png" class="logo"
+              alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown">
+                  Destinations
+                </button>
+  
+                <!-- Destinations -->
+  
+                <div class="dropdown-menu bg-seconadry py-3" style="width: 700px;">
+                  <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 ps-5">
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Aleppy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Athirapally</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bekal Fort</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kumarakom</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kovalam</a></li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Guruvayoor</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cochin</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kuttanad</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vagamon</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ponmudi</a></li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Munnar</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Thekkady</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vembanad Beach</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Periyar National
+                            Park</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nelliyampathi</a>
+                        </li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Thrissur</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nilambur</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vythiri</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Peerumedu</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Malampuzha</a></li>
+                      </ul>
+                    </div>
+                  </div>
+  
+                </div>
+  
+              </li>
+              <li class="nav-item dropdown">
+                <button type="button" class="btn dropdown-toggle text-light" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Activities
+                </button>
+  
+                <!-- Activities -->
+  
+                <div class="dropdown-menu bg-seconadry py-3" style="width: 600px;">
+                  <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 ps-4">
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ayurveda
+                            Therapy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Boating</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rock climbing</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kayaking</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bamboo Rafting</a>
+                        </li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Repelling</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Quad Biking</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tree house</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Traditional
+                            Meal</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">House Boats</a>
+                        </li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Paragliding</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Trecking</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yoga</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cochin Carnival</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Wildlife</a></li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jeep Safari</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Water Sports</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Snorkeling</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cycling</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Elephant Ride</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+  
+              </li>
+              <li class="nav-item dropdown">
+                <button type="button" class="btn dropdown-toggle text-light" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Packages
+                </button>
+  
+                <!-- Packages -->
+  
+                <div class="dropdown-menu bg-seconadry py-3" style="width: 600px;">
+                  <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 ps-3">
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Entire Kerala</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Central Kerala</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Backwaters</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">South Kerala</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">North Kerala</a>
+                        </li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Honeymoon</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Family</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Enchanting Kerala</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Green valley</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ideal Tour Package</a>
+                        </li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kannur Package</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Wayanad Package</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Idukki Package</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Alappuzha Package  </a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Palakkad Package</a></li>
+                      </ul>
+                    </div>
+  
+                    <div class="col mb-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Monsoon </a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Magical Munnar</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nelliyampathi</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ayurveda Package</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Theyyam</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+  
+              </li>
+              <li class="nav-item"><a href="aboutus.html" class="nav-link px-3 text-white">About Us</a></li>
+              <li class="nav-item"><a href="contactus.html" class="nav-link px-3 text-white">Contact Us</a></li>
+            </ul>
+  
+  
+            <div class="d-flex">
+              <button class="btn text-light me-2" id="mode-btn"><i class="bi bi-circle-half"></i></button>
+              <div class="dropdown">
+                <button class="btn btn-outline-light dropdown-toggle me-lg-2" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-translate"></i>
+                  EN
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item active" href="#">ENGLISH</a></li>
+                  <li><a class="dropdown-item" href="#">MALAYALAM</a></li>
+                </ul>
+              </div>
+              <a type="button" class="btn btn-outline-light me-2" href="signin.html">Sign-in</a>
+              <a type="button" class="btn btn-warning" href="signup.html" disabled >Sign-up</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>  
+
+    <!-- About us -->
+
+    <div class="container-fluid ">
+        <h1>ABOUT US</h1> <br>
+       <div class="bg-warning-subtle">
+        <h3>Who are We?</h3>
+        <p class="fs-5 lead">
+            We are a group of nomads who were bitten by the travel bug around 10 years ago! Our passion and enthusiasm for
+            travelling, to explore new places, to visit the unexplored corners, to get in touch with the local life, and
+            discover the untouched beauty has inspired us to traverse through every corner of Kerala, the God’s Own Country!
+    
+            Unlike others, we do not promise you to show you the landmarks of Kerala, or offer you the most stunning and
+            amazing experience of this magical land! We promise to blend your holidays with the true essence and
+            authenticity of Kerala! We promise to make you feel home and explore every corner just like a local! We also
+            promise, you will surely fall in love with Kerala, our heart-warming services in Kerala, and will yearn for more
+            and more!
+        </p>
+        <h3>What We Do?</h3>
+        <p class="fs-5 lead">With an experience of more than a decade, today we feel proud when our customers call us one of the best tour
+            operators in Kerala! Our vast experience, dedications towards creating memorable travel diaries and travelogues,
+            and knowledge about the entire vicinity of Kerala makes us one of the most skilled and trustworthy tour
+            organisers in the entire of Kerala.
+    
+            Though we might sound like any other tour organisers, it is our tour packages that make us unique and reliable
+            tour organisers in Kerala! Our expert team of travel guides know each and every corner of Kerala; planning a
+            holiday with us is not only effortless, but is also equally exciting and reliable!
+    
+            In addition to organising tours, we also help our valued customers in tailoring their favourite tours according
+            to their requirement and convenience. To make travel hassle-free and more fun-filled, we also help our customers
+            with hotel booking, creating offbeat itineraries, arranging transportation vehicles, pick-up and drops, and lot
+            more. Our tie-ups with more than 150 hotels across Kerala and leading transport services assure the best of
+            Kerala experience to our customers.
+    
+            At present, we have more than 100 Kerala tours that include family vacations, honeymoon packages, cultural
+            tours, plantation visits, adventure trails, walking tour, and lot more. Booking tours with us is extremely easy
+            and we assure you 100% customer service followed by total customer satisfaction.
+    
+            We have a legacy for arranging the best of Kerala honeymoon tours, family vacations, nature trails and adventure
+            packages.
+        </p>
+    
+        <h3>Our Promise:</h3>
+        <p class="fs-5 lead"> Our endeavour Mallu Guide, not only showcase the pristine beauty and magical charm of God’s own Country,
+            but also helps tourists from various corners of the world to plan their Kerala holidays without any worries and
+            complexities.
+    
+            With our expert guides and instructors, you will not only explore and discover the most alluring facets of
+            Kerala, but will also get to enjoy the enchanting beauty and appeal of God’s Own Country just like a local!
+            Besides this, their expert knowledge and vivid experience will take you through some of the hidden places that
+            are unknown to most!
+    
+            Our Contribution to the Society:
+            To make your Kerala experience memorable, we appoint only as well as maximum number of local tour guides and
+            instructors. This in turn helps us to create tours that are steeped with all the essence of local tourism and
+            experience, and also supports the local youths with decent income while keeping them away from any of the evil
+            and unsocial ways of earning.
+    
+            While conducting any of the village and local tours, we prioritise local stays along with foods and other
+            essentials, and help the locals with a uniform and continuous source of income. Our emphasis on local art,
+            cultures, traditions, and practices, encourage the local artists to flourish with their arts, skills and
+            showcase them to the rest of the world.
+        </p>
+        <h3>Our Concern about the Environment:</h3>
+        <p class="fs-5 lead"> As a responsible tour organiser, we concentrate more on the well-being of the environment. It is our expert team
+            of tour managers who visits the tourist destinations by themselves, surveys the environmental conditions, come
+            up with solutions and ways to conserve the balance in the eco-system.
+    
+            All our tours comply with the guidelines and instructions of being eco-friendly! We maintain this equilibrium by
+            encouraging the use of recyclable materials, rain water harvesting, using organic energy sources, depending more
+            on the renewable energy sources and other means that are non-polluting and do not harm the nature in any ways!
+    
+            During our nature, wildlife or any other tours, we walk the extra miles to ensure that the animals face no
+            cruelty or rudeness from our guests. Neither we encourage, nor will tolerance any cruelty during the tours!
+    
+        </p>
+     </div> 
+    </div>
+
+    <!-- footer -->
+
+  <div class="container-fluid pt-5">
+    <footer class="px-5 text-light pt-4 foot-color">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Company</h5>
+          <ul class="nav flex-column text-light">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Kerala Tourism</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Tourist Places in Kerala</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Terms & Conditions</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privcy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Tour Packages</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Kerala Family Packages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Kerala Honeymoon Packages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Kerala Luxury Packages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Kerala Hill Stations</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Kerala Backwaters</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Quik Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Munnar Tourism</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Thekkady Tour Packages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">5 Days Trip in kerala</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">6 Days Packages to Kerala</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">7 Days Honeymoon Package</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html>
+
